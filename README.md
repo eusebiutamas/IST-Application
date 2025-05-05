@@ -18,19 +18,22 @@ Navigate to Files and choose you desired file based on your environment (e.g. Wi
 
 Make sure to select the option **'Add Python to PATH'** throughout the installation process
 
-### 2. Create a virtual environment:
+### 2. Create an empty folder and name it "data":
+Download the NASDAQ-100 dataset from the specified Algoseek website above.
+
+### 3. Create a virtual environment:
 
 Open a command prompt and navigate to the file of your newly created project and run the following:
 ```bash
 python -m venv .venv
 ```
-### 3. Activate the environment:
+### 4. Activate the environment:
 .venv\Scripts\activate
-### 4. Intall the requirements:
+### 5. Intall the requirements:
 pip intall -r requirements.txt
-### 4. Run the project:
-- **Firstly run the main file GUI:** python main.py
-- **Secondly run the file:** python vectorized_backtest.py
+### 6. Run the project:
+- **Firstly run the main file:** python main.py
+- **Secondly run the backtest file:** python vectorized_backtest.py
 - **Thirdly run the GUI:** systemUI.py
 
 By running the main.py file, the full system of the deep learning model's pipeline can be tested from the first step of data pre-processing, moving to the feature engineering and then train, test, and save predictions for backtesting purposes.
@@ -39,6 +42,7 @@ Running the vectorized_backtest.py, a simple intraday trading strategy on the pr
 
 Within the systemUI.py file the prediction can be backtested by clicking the predict button.
 Other functionalities can be used, such as searching for a desired ticker from all 100 tickers within NASDAQ-100 dataset, change the plot style, select a desired time frame from 1-min candlesticks to 1-hour, zoom in and out, and pause and resume the simulation.
+
 
 ### References
 Jansen, S., 2020. *Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python*. Packt Publishing Ltd.
