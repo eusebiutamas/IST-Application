@@ -6,6 +6,12 @@ Term Memory (LSTM), and additionally a hybrid CNN-Bi-LSTM optimized with Genetic
 The data used in this project is the NASDAQ-100 dataset exracted from the Agoseek website (URL source: https://www.algoseek.com/ml4t-book-data.html).
 To use the same dataset, simply click on the "Download algoseek data used in ML4T" and then move it to the data folder within this project.
 
+## System Architecture
+
+The diagram below illustrates the overall architecture and workflow of the application, from data ingestion and preprocessing through feature engineering, model training, prediction and backtesting.
+
+![IST Application System Architecture](figures/diagram.png)
+
 ## Install and run the program using your preferred IDE:
 
 ### 1. Install Python 3.11
