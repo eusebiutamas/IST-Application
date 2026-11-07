@@ -1,7 +1,5 @@
 # This is the Intraday Stock Trading (IST) Application 
 
-##
-
 This project recommends an intraday stock trading strategy by using three basic deep learning algorithms such as the  Multi
 Layer Perception (MLP), Convolutional Neural Network (CNN), Long Short-
 Term Memory (LSTM), and additionally a hybrid CNN-Bi-LSTM optimized with Genetic Algorithm (GA). 
